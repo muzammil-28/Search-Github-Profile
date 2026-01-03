@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial;
+}
+.container{
+    width: 320px;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+.container h2{
+    text-align: center;
+}
+.container form input[type="text"]
+{
+    padding: 7px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.container form input[type="submit"]
+{
+    padding: 4px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .GithubContent .avator{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    margin: auto;
+}
+.container .GithubContent .avator img{
+    width: 100%;
+    border-radius: 50%;   
+}
+.container .GithubContent h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.container .GithubContent h5{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.container .GithubContent .fans{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.container .GithubContent p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.container .GithubContent .repo{
+    margin-top: 20px;
+}
+.container .GithubContent .repo button{
+    padding: 4px 10px;
+    float: right;
+}
+.container .GithubContent .profile{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .GithubContent .profile button{
+    padding: 4px 7px;
+}
